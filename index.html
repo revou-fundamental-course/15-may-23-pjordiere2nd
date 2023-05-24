@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katik (Kalkulator Matematika)</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <span class="title">Katik</span> <span class="subtitle">Kalkulator Matematika</span>
+    </header>
+    <main>
+        <div class="intro">
+            <h2>Welcome to Katik</h2>
+            <p>Halo Teman-Teman, selamat datang di Katik ^^</p>
+            <p>Sebuah web app sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar</p>
+        </div>
+        <div class="card">
+            <div class="submenu">Luas Persegi</div>
+            <div><img src="assets/3-rumusluaspersegi.jpg"></div>
+            <div class="formula-description">
+                <p>Luas Persegi yaitu :</p> 
+                <p>L = S x S</p> 
+                <p>Dimana :</p> 
+                <p>L = Luas</p> 
+                <p>S = Sisi</p> 
+            </div>
+            <div class="view-hitung">
+            <h3>Hitung Luas Persegi</h3>
+            <input id="sisi-luas" onkeypress="return hanyaAngka(event)" required="">
+                
+                <p><button id="hitung-luas" onclick="hitungLuas()">Hitung</button>
+                <button id="reset-luas" onclick="resetLuas()">Reset</button></p>
+            </div>
+            <div id="rumus-luas"></div>
+            <div id="perhitungan-luas"></div>
+            <div id="output_luas"></div>
+                
+        </div>
+        <div class="card">
+            <div class="submenu">Keliling Persegi</div>
+            <div><img src="assets/3-rumusluaspersegi.jpg"></div>
+            <div class="formula-description">
+                <p>Keliling Persegi yaitu :</p> 
+                <p>K = 4 x S</p> 
+                <p>Dimana :</p> 
+                <p>K = Keliling</p> 
+                <p>S = Sisi</p> 
+            </div>
+            <div class="view-hitung">
+                <h3>Hitung Keliling Persegi</h3>
+                <input id="sisi-keliling" onkeypress="return hanyaAngka(event)" required="">
+                    
+                <p><button id="hitung-keliling" onclick="hitungKeliling()">Hitung</button>
+                <button id="reset-keliling" onclick="resetKeliling()">Reset</button></p>
+            </div>
+                <div id="rumus-keliling"></div>
+                <div id="perhitungan-keliling"></div>
+                <div id="output_keliling"></div>
+        </div>
+    </main>
+    <footer>
+        <div>created by Prima Jordie Ridha Edwiyana (pjordiere2nd)</div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+body{
+    background-image: url(../assets/peakpx.jpg);
+    backdrop-filter: blur(10px);
+}
+/*untuk mengatur tampilan body pada halaman web*/
+
+header {
+    background: royalblue;
+    text-align: center;
+    padding: 30px 30px;
+}
+/*untuk mengatur tampilan header*/
+
+span.title {
+    font-weight: bold;
+    color: white;
+    font-size: x-large;
+}
+/*untuk mengatur penulisan title*/
+
+span.subtitle {
+    color: rgba(255, 255, 255, 0.486);
+}
+/*untuk mengatur penulisan subtitle*/
+
+.intro {
+    min-height: 10px;
+    text-align: center;
+}
+/*untuk mengatur penulisan intro / pengenalan aplikasi web*/
+
+.card {
+    background: rgb(255, 255, 255);
+    padding: 10px 10px 10px 10px;
+    border-style: ridge;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+/*untuk mengatur border pada tampilan halaman luas dan keliling persegi*/
+
+.submenu {
+    background: royalblue;
+    text-align: center;
+    padding: 20px 20px;
+    color: white;
+    font-size: medium;
+}
+/*untuk mengatur header pada submenu halaman luas dan keliling persegi*/
+
+img {
+    display: block;
+    size: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*untuk mengatur tampilan gambar*/
+
+.view-hitung {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+/*untuk mengatur penataan penulisan form perhitungan*/
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+}
+/*untuk mengatur tampilan form input*/
+
+#hitung-luas, #hitung-keliling {
+    background-color: deepskyblue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+}
+/*untuk mengatur tampilan tombol hitung luas dan keliling*/
+
+#reset-luas, #reset-keliling {
+    background-color: darkorange;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+}
+/*untuk mengatur tampilan tombol reset*/
+
+footer {
+    background: royalblue;
+    color: white;
+    text-align: center;
+    padding: 30px 30px;
+}
+/*untuk mengatur tampilan footer*/
