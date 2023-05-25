@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Katik (Kalkulator Matematika)</title>
     <link rel="stylesheet" href="css/style.css">
+    <!--melacak letak css eksternal-->
 </head>
 <body>
     <header>
@@ -19,7 +20,9 @@
         </div>
         <div class="card">
             <div class="submenu">Luas Persegi</div>
+            <!--menampilkan halaman submenu luas persegi-->
             <div><img src="assets/3-rumusluaspersegi.jpg"></div>
+            <!--melacak directory gambar bangun persegi-->
             <div class="formula-description">
                 <p>Luas Persegi yaitu :</p> 
                 <p>L = S x S</p> 
@@ -30,18 +33,20 @@
             <div class="view-hitung">
             <h3>Hitung Luas Persegi</h3>
             <input id="sisi-luas" onkeypress="return hanyaAngka(event)" required="">
-                
+            <!--menampilkan form input untuk menulis sisi persegi-->    
                 <p><button id="hitung-luas" onclick="hitungLuas()">Hitung</button>
                 <button id="reset-luas" onclick="resetLuas()">Reset</button></p>
+            <!--menampilkan tombol hitung dan reset-->
             </div>
             <div id="rumus-luas"></div>
             <div id="perhitungan-luas"></div>
             <div id="output_luas"></div>
-                
         </div>
         <div class="card">
             <div class="submenu">Keliling Persegi</div>
+            <!--menampilkan halaman submenu keliling persegi-->
             <div><img src="assets/3-rumusluaspersegi.jpg"></div>
+            <!--melacak directory gambar bangun persegi-->
             <div class="formula-description">
                 <p>Keliling Persegi yaitu :</p> 
                 <p>K = 4 x S</p> 
@@ -52,9 +57,10 @@
             <div class="view-hitung">
                 <h3>Hitung Keliling Persegi</h3>
                 <input id="sisi-keliling" onkeypress="return hanyaAngka(event)" required="">
-                    
+                <!--menampilkan form input untuk menulis sisi persegi-->    
                 <p><button id="hitung-keliling" onclick="hitungKeliling()">Hitung</button>
                 <button id="reset-keliling" onclick="resetKeliling()">Reset</button></p>
+                <!--menampilkan tombol hitung dan reset-->
             </div>
                 <div id="rumus-keliling"></div>
                 <div id="perhitungan-keliling"></div>
@@ -65,5 +71,6 @@
         <div>created by Prima Jordie Ridha Edwiyana (pjordiere2nd)</div>
     </footer>
     <script src="js/script.js"></script>
+    <!--melacak letak javascript eksternal-->
 </body>
 </html>

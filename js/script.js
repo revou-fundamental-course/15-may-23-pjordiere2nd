@@ -49,4 +49,4 @@ function hanyaAngka(evt) {
       return false;
     return true;
   }
-//untuk mengatur form input sisi persegi saat menulis hanya bisa menulis angka saja
+//untuk mengatur form input sisi persegi agar saat menulis hanya bisa menulis angka saja
